@@ -171,8 +171,8 @@ This project is licensed under the MIT License.
 
 *Built with ❤️ to make healthcare predictive and proactive.*
 
-📞 Contact
-Name: Thornala Vishnu Vardhan Reddy
-GitHub: @vishnuvardhanreddythornala
-Email: vishnuvardhanreddythornala@gmail.com
+## 📞 Contact
+- **Name**: Thornala Vishnu Vardhan Reddy
+- **GitHub**: [@vishnuvardhanreddythornala](https://github.com/vishnuvardhanreddythornala)
+- **Email**: [vishnuvardhanreddythornala@gmail.com]
 
