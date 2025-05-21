@@ -3,16 +3,16 @@
 A machine learning pipeline to predict whether a patient is at risk of diabetes using clinical data such as glucose levels, insulin, BMI, age, and other health indicators.
 
 ---
-## 📑 Table of Contents  
-- About the Project   
-- Features  
-- Tech Stack  
-- Installation  
-- Usage  
-- Project Structure  
-- Limitations and Future Work  
-- License  
-- Contact
+## 📑 Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Limitations and Future Work](#limitations-and-future-work)
+- [License](#license)
+- [Contact](#contact)
 
 ## 📖 About the Project  
 Diabetes is a global health issue affecting millions. Early risk detection can lead to timely medical intervention.  
@@ -45,7 +45,7 @@ It employs classification models and is integrated with a Streamlit-based user i
 ---
 
 ## ⚙️ Installation  
-
+```bash
 # Clone the repository  
 git clone https://github.com/vishnuvardhanreddythornala/Diabetes-Risk-Predictor.git
 
@@ -58,7 +58,7 @@ source venv/bin/activate        # On Windows use: venv\Scripts\activate
 
 # Install dependencies  
 pip install -r requirements.txt 
-
+```
 
 ## 🧪 Usage
 
@@ -128,7 +128,7 @@ The \`streamlit_app.py\` file provides:
 
 ## 📁 Project Structure
 
-'''
+```
 diabetes-risk-prediction/
 │
 ├── app/
@@ -138,7 +138,7 @@ diabetes-risk-prediction/
 ├── run_pipeline.py              # Entry point for model training and evaluation
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
-'''
+```
 
 ⚡ Limitations and Future Work
 Limitations:
