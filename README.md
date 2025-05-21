@@ -45,7 +45,7 @@ It employs classification models and is integrated with a Streamlit-based user i
 ---
 
 ## ⚙️ Installation  
-```bash
+
 # Clone the repository  
 git clone https://github.com/vishnuvardhanreddythornala/Diabetes-Risk-Predictor.git
 
