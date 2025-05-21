@@ -1,6 +1,7 @@
-# 🩺 Diabetes Risk Predictio
-  A complete end-to-end Python ML pipeline to predict diabetes using the Pima Indians dataset, featuring preprocessing, model comparison, and error analysis. Includes a user-friendly Streamlit web app for 
-  instant predictions.
+# 🩺 Diabetes Risk Predictor
+
+A machine learning pipeline to predict whether a patient is at risk of diabetes using clinical data such as glucose levels, insulin, BMI, age, and other health indicators.
+
 ---
 
 ## 🚀 Features
@@ -39,8 +40,8 @@ diabetes-risk-prediction/
 1. **Clone the repository**
 
 \`\`\`bash
-git clone https://github.com/yourusername/diabetes-risk-prediction.git
-cd diabetes-risk-prediction
+git clone https://github.com/vishnuvardhanreddythornala/Diabetes-Risk-Predictor.git
+cd Diabetes-Risk-Predictor
 \`\`\`
 
 2. **Create and activate a virtual environment**
@@ -155,4 +156,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-Built with ❤️ to make healthcare predictive and proactive.
+*Built with ❤️ to make healthcare predictive and proactive.*
+
