@@ -128,7 +128,7 @@ The \`streamlit_app.py\` file provides:
 
 ## 📁 Project Structure
 
-\`\`\`
+'''
 diabetes-risk-prediction/
 │
 ├── app/
@@ -138,7 +138,7 @@ diabetes-risk-prediction/
 ├── run_pipeline.py              # Entry point for model training and evaluation
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
-\`\`\`
+'''
 
 ⚡ Limitations and Future Work
 Limitations:
