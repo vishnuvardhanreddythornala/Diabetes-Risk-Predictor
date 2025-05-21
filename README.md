@@ -3,6 +3,21 @@
 A machine learning pipeline to predict whether a patient is at risk of diabetes using clinical data such as glucose levels, insulin, BMI, age, and other health indicators.
 
 ---
+## 📑 Table of Contents  
+- About the Project   
+- Features  
+- Tech Stack  
+- Installation  
+- Usage  
+- Project Structure  
+- Limitations and Future Work  
+- License  
+- Contact
+
+## 📖 About the Project  
+Diabetes is a global health issue affecting millions. Early risk detection can lead to timely medical intervention.  
+This project uses machine learning techniques to predict whether an individual is at risk of diabetes, based on attributes like glucose levels, insulin, BMI, and age.  
+It employs classification models and is integrated with a Streamlit-based user interface for real-time prediction and interpretation.
 
 ## 🚀 Features
 
@@ -19,48 +34,31 @@ A machine learning pipeline to predict whether a patient is at risk of diabetes 
 
 ---
 
-## 📁 Project Structure
-
-\`\`\`
-diabetes-risk-prediction/
-│
-├── app/
-│   └── streamlit_app.py         # Streamlit app for interactive prediction
-├── models/                      # Trained model artifacts (optional)
-├── data/                        # Input datasets (not included)
-├── run_pipeline.py              # Entry point for model training and evaluation
-├── requirements.txt             # Project dependencies
-└── README.md                    # Project documentation
-\`\`\`
+## 🛠️ Tech Stack  
+- Python  
+- Pandas  
+- Scikit-Learn  
+- XGBoost  
+- SHAP  
+- Streamlit  
 
 ---
 
-## ⚙️ Installation
-
-1. **Clone the repository**
-
-\`\`\`bash
+## ⚙️ Installation  
+```bash
+# Clone the repository  
 git clone https://github.com/vishnuvardhanreddythornala/Diabetes-Risk-Predictor.git
+
+# Navigate to the project directory  
 cd Diabetes-Risk-Predictor
-\`\`\`
 
-2. **Create and activate a virtual environment**
+# Create and activate virtual environment (optional)  
+python -m venv venv  
+source venv/bin/activate        # On Windows use: venv\Scripts\activate
 
-\`\`\`bash
-python -m venv venv
-# Activate on Linux/Mac
-source venv/bin/activate
-# Activate on Windows
-venv\Scripts\activate
-\`\`\`
+# Install dependencies  
+pip install -r requirements.txt 
 
-3. **Install dependencies**
-
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
-
----
 
 ## 🧪 Usage
 
@@ -128,23 +126,38 @@ The \`streamlit_app.py\` file provides:
 
 ---
 
-## 🤝 Contributing
+## 📁 Project Structure
 
-Contributions are welcome!
+\`\`\`
+diabetes-risk-prediction/
+│
+├── app/
+│   └── streamlit_app.py         # Streamlit app for interactive prediction
+├── models/                      # Trained model artifacts (optional)
+├── data/                        # Input datasets (not included)
+├── run_pipeline.py              # Entry point for model training and evaluation
+├── requirements.txt             # Project dependencies
+└── README.md                    # Project documentation
+\`\`\`
 
-1. Fork the repository
-2. Create a new branch (\`git checkout -b feature-name\`)
-3. Commit your changes (\`git commit -am 'Add new feature'\`)
-4. Push to the branch (\`git push origin feature-name\`)
-5. Open a Pull Request
+⚡ Limitations and Future Work
+Limitations:
+Accuracy limited by the dataset size and quality
 
----
+Currently supports batch inference; lacks real-time API deployment
 
-## 📄 License
+Does not integrate electronic health records
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+Future Work:
+Deploy as a cloud web app or API endpoint
 
----
+Improve UI/UX with visual guides for medical terms
+
+Add historical tracking for user health progression
+
+📜 License
+This project is licensed under the MIT License.
+
 
 ## 🙌 Acknowledgements
 
@@ -157,4 +170,9 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ---
 
 *Built with ❤️ to make healthcare predictive and proactive.*
+
+📞 Contact
+Name: Thornala Vishnu Vardhan Reddy
+GitHub: @vishnuvardhanreddythornala
+Email: vishnuvardhanreddythornala@gmail.com
 
